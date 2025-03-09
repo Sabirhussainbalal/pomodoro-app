@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+@import "tailwindcss";
+
+
+body{
+  overflow-x: hidden;
+}
+
+.owner{
+  font-family: "Dancing Script", "cursive", "sans-serif";
+  font-optical-sizing: auto;
+  font-style: normal;
+  word-spacing: 5px;
+  
+}
+
+.custom-toast {
+  font-size: 12px;
+  background: #000 !important;
+}
+
+.custom-toast-progress {
+  background: linear-gradient(to right, #8a7dff, #70d7ff, #ff70cf) !important;
+}
+
+
+.custom-toast {
+  font-size: 12px;
+}
+
+/* Increase font size & height based on screen width */
+@media (min-width: 640px) { /* sm */
+  .custom-toast {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 768px) { /* md */
+  .custom-toast {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1024px) { /* lg */
+  .custom-toast {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1280px) { /* xl */
+  .custom-toast {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1536px) { /* 2xl */
+  .custom-toast {
+    font-size: 17px;
+  }
+}
